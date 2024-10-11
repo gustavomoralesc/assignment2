@@ -1,38 +1,146 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-right: 20%;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+hr {
+  display: flex;
+  justify-content: center;
+  padding-left: 30%;
+  padding-right: 30%;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#toplevel {
+  display: flex;
+  flex: 1;
+  margin-bottom: 5%;
+}
+.firstinfo {
+  flex-direction: column;
+  margin-top: 20px;
+  margin-left: 300px;
+}
+.secondinfo {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: flex-end;
+  line-height: 2px;
+  justify-items: flex-end;
+  margin-left: 30%;
+  margin-top: 35px;
+  font-size: small;
+}
+.emaillink {
+  color: blue;
+  text-decoration: underline;
+}
+#email #web #mobile {
+  align-items: flex-end;
+}
+#name {
+  font-weight: bold;
+  font-size: larger;
+}
+#firstblock {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex: 1;
+}
+#personalprofile {
+  font-weight: bold;
+  font-style: italic;
+  font-size: larger;
+  padding-left: 300px;
+  padding-right: 90px;
+}
+#personalprofiledescription {
+  margin-right: 250px;
+}
+.secondblock {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  
+}
+#secondblockleft {
+  padding-left: 300px;
+  font-weight: bold;
+  font-size: larger;
+  font-style: italic;
+}
+#secondblockright {
+  display: flex;
+  flex-direction: column;
+  flex:1;
+  padding-left: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+#job1 {
+  flex:1;
+}
+#secondblock {
+  display: flex;
+  flex: 1;
+}
+#jobtitle1description {
+  margin-right: 250px;
+}
+#job2 {
+  display: flex;
+  flex-direction: column;
+  flex:1;
+}
+#jobtitle2description {
+  margin-right: 250px;
+}
+#jobtitle1, #jobtitle2 {
+  font-weight: bold;
+  margin-bottom: -3%;
+}
+.thirdblock {
+  display: flex;
+  flex-direction: row;
+  padding-left: 150px;
+  margin-top: -2%;
+}
+#firstskillsblock {
+  margin-left: -6%;
+  margin-bottom: -15%;
+  row-gap: 10px;
+}
+#akeyskill1, #akeyskill2, #akeyskill3, #akeyskill4, #akeyskill5, #akeyskill6, #akeyskill7, #akeyskill8, #akeyskill9 {
+  margin-bottom: -9%;
+  margin: -3%;
+  margin-right: -100px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#keyskillstitle {
+  font-weight: bold;
+  font-style: italic;
+  margin-top: 2px;
+}
+.fourthblock {
+  display: flex;
+  padding-left: 150px;
+  margin-top: -1%;
+}
+#educationtitle {
+  font-weight: bold;
+  font-style: italic;
+  margin-top: 2px;
+}
+#fourthblockright {
+  display: flex;
+  flex-direction: column;
+  margin-left: -8%;
+  margin-bottom: -10%;
+}
+#njitinfo, #njitinfo2 {
+  display: flex;
+  flex-direction: column;
+}
+#njit, #njit2 {
+  font-weight: bold;
 }
